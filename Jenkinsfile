@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'master'
+        label 'slave1'
     }
     environment{
         SONAR_TOKEN = 'f28a27ce9cdc03539c26a3d34015155d3a4f354b'
